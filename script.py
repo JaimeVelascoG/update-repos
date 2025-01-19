@@ -2,13 +2,6 @@ import os
 import subprocess
 
 def clonar_repositorios(lista_repositorios, directorio_destino="repositorios"):
-    """
-    Clona una lista de repositorios Git.
-
-    Args:
-        lista_repositorios: Una lista de URLs de repositorios.
-        directorio_destino: El directorio donde se clonarán los repositorios.
-    """
 
     if not os.path.exists(directorio_destino):
         os.makedirs(directorio_destino)
@@ -36,10 +29,8 @@ repositorios_a_clonar = [
     "https://github.com/JaimeVelascoG/gh-actions-controlling-workflows.git",
     "https://github.com/JaimeVelascoG/gh-actions-env-vars.git",
     "https://github.com/JaimeVelascoG/gh-actions-demo2.git",
-    "https://github.com/JaimeVelascoG/update-repos.git"
-
-    # ... más repositorios
+    "https://github.com/JaimeVelascoG/update-repos.git",
+    "https://github.com/JaimeVelascoG/gh-actions-controlling-workflows.git"
 ]
 
 clonar_repositorios(repositorios_a_clonar)
-#clonar_repositorios(repositorios_a_clonar, "otros_repos") # Clonar en otro directorio
