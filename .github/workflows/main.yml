@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - feat-action-update
+  workflow_dispatch: 
 jobs:
   test:
     runs-on: ubuntu-latest
