@@ -35,8 +35,8 @@ def clonar_repositorios(lista_repositorios, directorio_destino="repositorios"):
 repositorios_a_clonar = [
     "https://github.com/JaimeVelascoG/gh-actions-controlling-workflows.git",
     "https://github.com/JaimeVelascoG/gh-actions-env-vars.git",
-    "https://github.com/JaimeVelascoG/gh-actions-data.git",
-    "https://github.com/JaimeVelascoG/gh-actions-demo2.git"
+    "https://github.com/JaimeVelascoG/gh-actions-demo2.git",
+    "https://github.com/JaimeVelascoG/update-repos.git"
 
     # ... más repositorios
 ]
